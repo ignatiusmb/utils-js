@@ -1,0 +1,32 @@
+{
+  "name": "@ignatiusmb/utils-js",
+  "author": "Ignatius Bagus",
+  "homepage": "https://github.com/ignatiusmb/utils-js#readme",
+  "description": "Collection of web utility functions",
+  "version": "0.0.2",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "keywords": [
+    "utility"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignatiusmb/utils-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ignatiusmb/utils-js/issues"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "bundle": "tsc",
+    "prepublishOnly": "npm run bundle"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tslib": "^2.0.3",
+    "typescript": "^4.0.5"
+  }
+}
